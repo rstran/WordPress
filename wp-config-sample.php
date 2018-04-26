@@ -88,3 +88,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once( ABSPATH . 'wp-settings.php' );
+
+
+/** thêm mới */
+define( 'WP_ALLOW_REPAIR', true );
